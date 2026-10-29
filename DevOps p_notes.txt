@@ -1,0 +1,17 @@
+Git and GitHub:
+GitHub is a web-based platform that hosts Git repositories and provides collaboration features. It allows developers to share code, review changes through pull requests, report issues, and manage project contributions. GitHub also provides GitHub Actions, which can automate workflows such as testing and deployment.
+
+Jenkins:
+Jenkins can connect to version control systems such as GitHub and automatically start a pipeline when new code is pushed. A pipeline is a sequence of automated stages that takes an application from source code to a tested or deployed version.
+
+Docker:
+Without containerization, an application may work on a developer's computer but fail on a server because of differences in software versions, libraries, or configuration. Docker helps reduce these problems by packaging the application environment in a portable format.
+
+Kubernetes:
+Kubernetes organizes workloads into units called Pods. A Pod is the smallest deployable unit in Kubernetes and usually contains one application container, although it can contain multiple closely related containers. A Deployment manages replicated application workloads and helps maintain the desired number of instances. A Service provides stable network access to a set of application workloads.
+
+Ansible:
+Ansible commonly uses YAML files called playbooks to describe the tasks that should be performed. An inventory identifies the machines or hosts on which the tasks will run. Ansible uses modules to perform operations such as installing packages, managing services, copying files, and changing configuration settings.
+
+AWS Cloud Computing:
+Amazon EC2 provides virtual servers, while Amazon S3 provides object storage. AWS Identity and Access Management (IAM) controls access to AWS resources. Amazon VPC provides logically isolated networking, and Amazon RDS provides managed relational databases. Amazon CloudWatch supports monitoring and logging, while Amazon EKS provides a managed Kubernetes service.
